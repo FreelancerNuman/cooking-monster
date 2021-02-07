@@ -86,51 +86,57 @@ const showMoreInfo = (meal) => {
         <h2 class="ingredient-title">Ingredients</h2>
         <div class="ingredients">
           <div class="ingredient">
-            <i class="${meal.strMeasure1 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient1 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure1}</span> ${meal.strIngredient1}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure2 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient2 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure2}</span> ${meal.strIngredient2}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure3 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient3 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure3}</span> ${meal.strIngredient3}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure4 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient4 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure4}</span> ${meal.strIngredient4}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure5 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient5 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure5}</span> ${meal.strIngredient5}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure6 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient6 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure6}</span> ${meal.strIngredient6}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure7 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient7 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure7}</span> ${meal.strIngredient7}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure8 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient8 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure8}</span> ${meal.strIngredient8}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure9 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${meal.strIngredient9 ? ` fas fa-check-square` : ""}"></i>
             <p><span>${meal.strMeasure9}</span> ${meal.strIngredient9}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure10 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${
+              meal.strIngredient10 ? ` fas fa-check-square` : ""
+            }"></i>
             <p><span>${meal.strMeasure10}</span> ${meal.strIngredient10}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure11 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${
+              meal.strIngredient11 ? ` fas fa-check-square` : ""
+            }"></i>
             <p><span>${meal.strMeasure11}</span> ${meal.strIngredient11}</p>
           </div>
           <div class="ingredient">
-            <i class="${meal.strMeasure12 ? ` fas fa-check-square` : ""}"></i>
+            <i class="${
+              meal.strIngredient12 ? ` fas fa-check-square` : ""
+            }"></i>
             <p><span>${meal.strMeasure12}</span> ${meal.strIngredient12}</p>
           </div>
         </div>
