@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #edd263;
+}
+/* Navbar  */
+header {
+  padding: 15px 0;
+}
+.cooking-nav li a {
+  color: #383838;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+/* search box */
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+.type-box {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: gray;
+  background-color: #ffffff;
+  flex: 0.4;
+}
+.type-box > input {
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: 10px;
+}
+.custom-btn {
+  color: #ffffff;
+  background-color: #3b2d64;
+  font-size: 16px;
+  font-weight: 400;
+  flex: 0.1;
+}
+.custom-btn:hover {
+  color: #ffffff;
+  background-color: #2b0f77;
+}
+/* meal card */
+#meal-box {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.meal-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.meal-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #252525;
+  text-align: center;
+}
+/* modal card  */
+.modal-card {
+  color: #252525;
+}
+.modal-card img {
+  height: 300px;
+}
+.modal-meal-name {
+  font-weight: 700;
+  font-size: 36px;
+}
+.ingredient-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.ingredient {
+  display: flex;
+  align-items: center;
+}
+.ingredient p {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.ingredient i {
+  color: #3b2d64;
+}
+
+/* no meals */
+.not-found-meals {
+  display: none;
+  min-height: 450px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 40px;
+  background-image: url("https://assets.website-files.com/5c6dab076fc786143a664e6f/5cc88fef71a23e8053658ff7_campfire-01.gif");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.not-found-meals p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 1px 1px 1px #ddd;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+  .logo {
+    width: 200px;
+    object-fit: contain;
+  }
+}
